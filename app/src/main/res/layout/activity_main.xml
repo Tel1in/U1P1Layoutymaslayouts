@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#CCAF67"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANTE"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#E40B0B"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOS SIMPS "
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#E40B0B"
+         />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:src="@drawable/asd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USER "
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="ingrese su usario"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD "
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingrese contraseña"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#827717"
+        android:text="RESERVACION"
+        android:textSize="30dp"
+        android:id="@+id/botonR"
+        app:iconTint="#827717"
+        app:rippleColor="#827717"
+        app:strokeColor="#BFB454" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#827717"
+        android:text="INFORMACION "
+        android:textSize="30dp"
+        android:id="@+id/botonI"
+        app:iconTint="#827717"
+        app:rippleColor="#827717"
+        app:strokeColor="#BFB454" />
+
+
+
+
+
+
+</LinearLayout>
